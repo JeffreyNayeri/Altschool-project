@@ -1,0 +1,16 @@
+
+**/.terraform/              
+*.tfstate                    
+*.tfstate.backup             
+crash.log                    
+terraform.rc                 
+.terraformrc                 
+.terraform.lock.hcl         
+
+
+*.pem                       
+
+.vscode/                     
+
+Thumbs.db                    
+Desktop.ini                  

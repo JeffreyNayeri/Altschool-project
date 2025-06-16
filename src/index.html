@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <title>Portfolio website complete</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">
+            <span class="logo-flip">
+              <span class="logo-flip__front">Jeffrey</span>
+              <span class="logo-flip__back">Jeffrey</span>
+            </span>
+          </a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#project" class="nav__link">Project</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About Me</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__grid-lines"></div>
+        <div class="home__container">
+          <div class="home__data">
+            <div class="home__header">
+              <span class="home__greeting">Hello, I'm</span>
+              <h1 class="home__title">
+                <span class="home__name">Jeffrey</span>
+              </h1>
+              <span class="home__subtitle">Cloud Engineer</span>
+            </div>
+            <p class="home__description">
+              Building scalable cloud solutions and automating infrastructure with modern DevOps practices.
+            </p>
+            <div class="home__buttons">
+              <a href="#contact" class="button">
+                <span>Contact Me</span>
+                <i class="bx bx-right-arrow-alt"></i>
+              </a>
+              <a href="#project" class="button button--outline">
+                <span>View Project</span>
+                <i class="bx bx-folder-open"></i>
+              </a>
+            </div>
+            <div class="home__tech-badges">
+              <span class="tech-badge"><i class="fab fa-docker"></i> Docker</span>
+              <span class="tech-badge"><i class="fab fa-python"></i> Python</span>
+              <span class="tech-badge"><i class="fab fa-linux"></i> Linux</span>
+            </div>
+          </div>
+          <div class="home__interactive">
+            <div class="interactive-particles" id="interactiveParticles"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="project section" id="project">
+        <div class="project__container">
+          <article class="project__card">
+            <div class="project__content">
+              <h3 class="project__title">CloudFlow AI</h3>
+              <h4 class="project__subtitle">The Future of AI-Powered Cloud Optimization</h4>
+              <p class="project__description">
+                CloudFlow AI is redefining how organizations manage and optimize their cloud infrastructure. At its core, the platform uses machine learning algorithms to continuously analyze usage patterns, predict demand, and intelligently scale resources across cloud environments — all in real-time.
+              </p>
+              <p class="project__description">
+                Unlike traditional infrastructure setups that rely on static configurations or reactive auto-scaling, CloudFlow AI offers proactive and adaptive optimization. It automatically adjusts compute, storage, and network allocations based on live telemetry data and predictive insights, helping businesses maintain peak performance while minimizing unnecessary spending.
+              </p>
+              <p class="project__description">
+                Designed with flexibility in mind, CloudFlow AI works across multiple cloud providers (AWS, Azure, GCP) and integrates seamlessly with tools like Terraform, Ansible, and Kubernetes. Whether you're a startup trying to control cloud costs or an enterprise managing complex workloads, CloudFlow AI delivers a scalable, efficient, and intelligent solution that evolves with your business.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/profile-1.jpg" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">Jeffrey Nayeri</h2>
+            <p class="about__text">
+              I'm a tech-driven Cloud Engineer with a background in Computer Engineering and experience across quality assurance and infrastructure automation.
+              <br>
+              I specialize in building scalable, testable, and cost-efficient cloud systems using tools like Terraform, Ansible, and AWS. 
+              <br>
+            </p>
+            <br>
+            <p class="about__text">
+              My approach blends hands-on QA principles with modern DevOps practices — ensuring not just deployment speed, but system reliability and performance.
+              <br>
+              I’m passionate about simplifying cloud operations and delivering resilient solutions that meet real-world demands.
+            
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Professional Skills</h2>
+            <p class="skills__text">
+              Expertise in cloud infrastructure, automation, and containerization technologies.
+            </p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fab fa-python skills__icon"></i>
+                <span class="skills__name">Python</span>
+              </div>
+              <div class="skills__bar skills__python"></div>
+              <div>
+                <span class="skills__percentage" data-target="75">0%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fab fa-linux skills__icon"></i>
+                <span class="skills__name">Linux</span>
+              </div>
+              <div class="skills__bar skills__linux"></div>
+              <div>
+                <span class="skills__percentage" data-target="80">0%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bx-code-alt skills__icon"></i>                <span class="skills__name">Terraform</span>
+              </div>
+              <div class="skills__bar skills__terraform"></div>
+              <div>
+                <span class="skills__percentage" data-target="70">0%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="fab fa-docker skills__icon"></i>
+                <span class="skills__name">Docker</span>
+              </div>
+              <div class="skills__bar skills__docker"></div>
+              <div>
+                <span class="skills__percentage" data-target="65">0%</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="assets/img/work3.jpg" alt="" class="skills__img" />
+          </div>
+        </div>
+      </section>
+
+      
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact__container bd-grid">
+          <form action="" class="contact__form" id="contact-form">
+            <label class="contact__label">Email
+              <input type="email" name="email" placeholder="Your Email" class="contact__input" required />
+            </label>
+            <label class="contact__label">Message
+              <textarea name="message" id="" cols="0" rows="6" class="contact__input" placeholder="Message" required></textarea>
+            </label>
+            <button type="submit" class="button contact__button">
+              Send Message
+              <i class="bx bx-send"></i>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__content">
+          <div class="footer__info">
+            <h3 class="footer__title">Let's Connect</h3>
+            <p class="footer__text">Interested in working together? Let's discuss your project.</p>
+          </div>
+          <div class="footer__contact">
+            <a href="mailto:jeffreynayeri3@gmail.com" class="footer__contact-item">
+              <i class="bx bx-envelope"></i>
+              <span>jeffreynayeri3@gmail.com</span>
+            </a>
+            <a href="tel:+2347048949702 class="footer__contact-item">
+              <i class="bx bx-phone"></i>
+              <span>(234) 704 894 9702</span>
+            </a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copy">© 2025 Jeffrey Nayeri. All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+      emailjs.init('QbddoeP7Vv_EULwIx');
+    </script>
+    <div id="toast-container"></div>
+  </body>
+</html>
+
